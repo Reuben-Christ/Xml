@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movie.xsl"?>
+<Mall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="movie.xsd">
+
+   <Movie>
+    <Movieid>12</Movieid>
+    <MovieName>Singham</MovieName>
+    <Language>Hindi</Language>
+    <Collection>2500000</Collection>
+    <Ratings>4</Ratings>
+    <Price>250</Price>
+   </Movie>
+
+   <Movie>
+    <Movieid>23</Movieid>
+    <MovieName>Dhoom</MovieName>
+    <Language>Hindi</Language>
+    <Collection>4500000</Collection>
+    <Ratings>5</Ratings>
+    <Price>350</Price>
+   </Movie>
+
+  <Movie>
+    <Movieid>32</Movieid>
+    <MovieName>Dhoom 2</MovieName>
+    <Language>Hindi</Language>
+    <Collection>5500000</Collection>
+    <Ratings>5</Ratings>
+    <Price>550</Price>
+   </Movie>
+
+   <Movie>
+    <Movieid>33</Movieid>
+    <MovieName>Dhoom3</MovieName>
+    <Language>Hindi</Language>
+    <Collection>7500000</Collection>
+    <Ratings>5</Ratings>
+    <Price>450</Price>
+   </Movie>
+
+  <Movie>
+    <Movieid>38</Movieid>
+    <MovieName>Singham2</MovieName>
+    <Language>Hindi</Language>
+    <Collection>4500000</Collection>
+    <Ratings>5</Ratings>
+    <Price>450</Price>
+   </Movie>
+
+      <Movie>
+    <Movieid>13</Movieid>
+    <MovieName>Kurup</MovieName>
+    <Language>Malayalam</Language>
+    <Collection>2000000</Collection>
+    <Ratings>5</Ratings>
+    <Price>320</Price>
+   </Movie>
+
+      <Movie>
+    <Movieid>44</Movieid>
+    <MovieName>Bro Daddy</MovieName>
+    <Language>Malayalam</Language>
+    <Collection>3000000</Collection>
+    <Ratings>4</Ratings>
+    <Price>350</Price>
+   </Movie>
+
+      <Movie>
+    <Movieid>55</Movieid>
+    <MovieName>ABCD</MovieName>
+    <Language>Hindi</Language>
+    <Collection>400000</Collection>
+    <Ratings>3</Ratings>
+    <Price>370</Price>
+   </Movie>
+
+</Travel>

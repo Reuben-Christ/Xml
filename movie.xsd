@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="Mall">        
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Movie" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Movieid" type="xs:integer"/>
+							<xs:element name="MovieName" type="xs:string"/>
+							<xs:element name="Language" type="xs:string"/>
+							<xs:element name="Collection" type="xs:string"/> 
+							<xs:element name="Ratings" type="rates"/>
+							<xs:element name="Price" type="ticketprice"/>
+						</xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+             </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="rates">
+    	<xs:restriction base="xs:integer">
+    	<xs:minInclusive value="1"/>
+    	<xs:maxExclusive value="5"/>
+    </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="ticketprice">
+    	<xs:restriction base="xs:integer">
+    	<xs:minInclusive value="100"/>
+    	<xs:maxExclusive value="1000"/>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>
